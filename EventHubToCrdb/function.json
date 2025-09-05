@@ -1,0 +1,14 @@
+{
+  "bindings": [
+    {
+      "type": "eventHubTrigger",
+      "direction": "in",
+      "name": "events",
+      "eventHubName": "%EventHubName%",
+      "connection": "EventHubReader",
+      "consumerGroup": "crdb-consumers",
+      "cardinality": "many"
+    }
+  ]
+}
+

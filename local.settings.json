@@ -1,0 +1,11 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "EventHubName": "app-events",
+    "EventHubReader": "Endpoint=sb://jphaugla-crdb-ehns.servicebus.windows.net/;SharedAccessKeyName=crdb-reader;SharedAccessKey=blahqNblahf2/b41blahl/+blahbFTc1x+blablah7E=;EntityPath=app-events",
+    "CrdbUrl": "postgresql://jhaugland:jasonrocks123456789@internal-jphaugla-crdb-adv-blah.azure-eastus2.cockroachlabs.cloud:26257?sslmode=verify-full&sslrootcert=/home/adminuser/certs/ca.crt"
+  }
+}
+
